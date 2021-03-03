@@ -4,6 +4,7 @@
     "github_username": "misken",
     "project_name": "simple data science",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "repo_name": "{{ cookiecutter.project_slug }}",
     "project_short_description": "Simple project layout for an exploratory data science project.",
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"]
 }
