@@ -1,7 +1,7 @@
 cookiecutter-datascience-simple
 ===============================
 
-Cookiecutter template for "simple" datascience projects. These projects are characterized by:
+Cookiecutter template for "simple" datascience projects. These projects are characterized by the following:
 
 * primarily for single developer
 * its conda virtual environment is based on some existing activated environment
@@ -9,8 +9,9 @@ Cookiecutter template for "simple" datascience projects. These projects are char
 * may be some Python code in .py files
 * want easy importing of user created Python code into notebooks without install
 * no intention of creating distributable package
-* no license
-* no use of pytest
+* no automated testing (e.g. pytest)
+* simple folder structure
+* basic Sphinx documentation is initialized
 
 This cookiecutter was developed for use in teaching a Python based analytics course 
 that includes some basic software engineering content. One of the first topics we
@@ -19,7 +20,7 @@ for quickly setting up a reasonable project folder structure.
 
 More complex cookiecutters will
 be developed and used for use in the course as well when talking about, say, creating
-deployable Python packages. For
+deployable Python packages. 
 
 Usage
 -----
