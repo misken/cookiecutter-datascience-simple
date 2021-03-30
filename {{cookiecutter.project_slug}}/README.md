@@ -43,9 +43,6 @@ Great. Using version control is good.
 
 For **local dependency managment** (LDM), we rely on [conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf).
 
-This is completely independent from **remote dependency managment** (RDM). RDM is managing the dependencies on a user's machine, a user who is trying to run your code. For instance, in a python project, you release your piece of code (a "package" in python lingo) through [PyPi](https://pypi.org/). In that _pypi-release_, you need to specify what you expect to find on a user's machine to make your code run.
-
-In conclusion, LDM and RDM are kept completely indepedent. Mixing them adds complexity instead of removing it. Obviosuly they should be kept mutually consistent; but the way in which we actually manage LDM and RDM operate separately.
 
 ### Conda Environment
 

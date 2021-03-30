@@ -33,6 +33,18 @@ cookiecutter gh:misken/cookiecutter-datascience-simple
 **Note:** This cookiecutter includes a conda YAML environment file called `aap.yml` that you
 can use to create a conda environment containing the packages used in this class.
 
+Documentation
+--------------
+
+We'll use Sphinx because it's powerful, widely used in Python community
+and rst isn't terribly different than md for simple things. During development
+of this module we'll also test out the new MyST parser which allows md files
+and mixing of md with rst.
+
+    conda install -c conda-forge myst-parser
+    
+> To use the MyST parser in Sphinx, simply add: extensions = ["myst_parser"] to your conf.py and all documents with the .md extension will be parsed as MyST.
+
 Then what?
 -----------
 

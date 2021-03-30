@@ -17,6 +17,8 @@ dependencies:
   - networkx
   - myst-parser
   - cookiecutter
+  - pillow
+  - python-graphviz
   - pip
 
     

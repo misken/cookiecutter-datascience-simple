@@ -1,7 +1,7 @@
 {
-    "full_name": "Mark Isken",
-    "email": "isken@oakland.edu",
-    "github_username": "misken",
+    "full_name": "Student",
+    "email": "student@oakland.edu",
+    "github_username": "student",
     "project_name": "simple data science",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "repo_name": "{{ cookiecutter.project_slug }}",
