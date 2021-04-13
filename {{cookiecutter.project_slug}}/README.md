@@ -46,7 +46,7 @@ For **local dependency managment** (LDM), we rely on [conda](https://docs.conda.
 
 ### Conda Environment
 
-If you are using the virtual machine I created, I've already created a conda virtual environment named `aap`. If you are not using the VM, you can create the conda virtual envirnoment with the **aap.yml** environment file provided. Obviously you can customize and change that file. The following command will create a new conda environment
+If you are using the virtual machine I created, I've already created a conda virtual environment named `aap`. If you are not using the VM, you can create the conda virtual envirnoment with the **aap.yml** environment file provided. You should have already done this as part of the Setting up your Analytics Machine module.Obviously you can customize and change that file. The following command will create a new conda environment
 named `aap`. If you want to rename it, use the commented out command (using either the project name from 
 cookiecutter) or replace `{{cookiecutter.project_name}}` with some other name like `someothername`.
 
