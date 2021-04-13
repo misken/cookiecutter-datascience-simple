@@ -2,10 +2,10 @@
 
 Information on using this cookiecutter
 
-1 Development workflows
+Development workflows
 =======================
 
-1.1 Create new project
+Create new project
 ----------------------
 
 You've already done this if you are reading this file. You ran:
@@ -14,8 +14,8 @@ You've already done this if you are reading this file. You ran:
 cookiecutter gh:{{cookiecutter.github_username}}/cookiecutter-datascience-simple
 ```
 
-1.2 git
--------
+Put project under version control
+---------------------------------
 
 Let's get version control set up. You don't absolutely have to do this, but you should. For the local repository, do;
 
@@ -36,31 +36,32 @@ git push -u origin main
 Great. Using version control is good.
 
 
-1.3 Conda Environments
-----------------------
+Folder structure
+-----------------
 
-### Introduction
+Here's the folder structure that gets created by `cookiecutter-datascience-simple`:
 
-For **local dependency managment** (LDM), we rely on [conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf).
-
-
-### Conda Environment
-
-If you are using the virtual machine I created, I've already created a conda virtual environment named `aap`. If you are not using the VM, you can create the conda virtual envirnoment with the **aap.yml** environment file provided. You should have already done this as part of the Setting up your Analytics Machine module.Obviously you can customize and change that file. The following command will create a new conda environment
-named `aap`. If you want to rename it, use the commented out command (using either the project name from 
-cookiecutter) or replace `{{cookiecutter.project_name}}` with some other name like `someothername`.
-
-```bash
-conda env create -f aap.yml
-# conda env create -f aap.yml -n {{cookiecutter.project_name}}
-```
-
-### Folder Structure
+├── {{cookiecutter.project_name}}
+	│   .gitignore					<- Common file types for git to ignore
+	│   README.md					<- The top-level README for developers (you) using this project
+	│   template-nb.ipynb			<- A Jupyter notebook template
+	│
+	├───data						<- Final and intermediate data
+	│   └───raw						<- The original, immutable data dump
+	│
+	├───docs
+	│       notes.md				<- Simple markdown template for project notes
+	│
+	└───output
+			readme.md				<- Guidance for using this folder
 
 
-### Documentation
+Documentation
+--------------
 
-
+In this very simple project structure template, we've just included a markdown file with some typical
+section headings to use for project notes. Expand as desired. Later in the semester we will learn how to
+use Sphinx with restructuredText to write and generate documentation.
 
 
 
