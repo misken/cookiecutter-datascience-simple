@@ -11,7 +11,7 @@ Cookiecutter template for "simple" datascience projects. These projects are char
 * no intention of creating distributable package
 * no automated testing (e.g. pytest)
 * simple folder structure
-* basic Sphinx documentation is initialized
+* basic documentation is initialized with a markdown file
 
 This cookiecutter was developed for use in teaching a Python based analytics course 
 that includes some basic software engineering content. One of the first topics we
